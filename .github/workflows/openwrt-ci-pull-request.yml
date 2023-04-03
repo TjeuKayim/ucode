@@ -8,7 +8,7 @@ on:
 
 env:
   CI_ENABLE_UNIT_TESTING: 1
-  CI_TARGET_BUILD_DEPENDS: libnl-tiny ubus uci
+  CI_TARGET_BUILD_DEPENDS: libnl-tiny ubus uci libffi
 
 jobs:
   native_testing:
